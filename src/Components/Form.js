@@ -13,7 +13,7 @@ const submitHandler = (e) => {
 }
 
 const statusHandler = (e) => {
-    console.log(e.target.value);
+    setStatus(e.target.value);
 }
 
 
